@@ -19,18 +19,15 @@ const MaintenancePage = () => {
                                 href="https://github.com/santos-pierre/"
                                 className="rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
                             >
-                                <div className="flex rounded-md shadow justify-center items-center px-4 py-4 bg-gray-800 hover:bg-gray-700 space-x-5">
+                                <button className="flex w-full shadow justify-center items-center px-4 py-4 bg-gray-800 hover:bg-gray-700 space-x-5 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800">
                                     <p className="text-lg font-semibold">
                                         <span className="inline-block">My Github</span>
                                     </p>
                                     <GithubIcon className="h-8 w-8" fill="currentColor" />
-                                </div>
+                                </button>
                             </a>
-                            <a
-                                href="https://games.santospierre.com"
-                                className="rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
-                            >
-                                <div className="flex rounded-md shadow justify-center items-center px-4 py-4 bg-red-600 hover:bg-red-400 space-x-5">
+                            <a href="https://games.santospierre.com">
+                                <button className="flex w-full shadow justify-center items-center px-4 py-4 bg-red-600 hover:bg-red-400 space-x-5 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500">
                                     <p className="text-lg font-semibold">
                                         <span className="inline-block">Game Aggregator</span>
                                     </p>
@@ -42,29 +39,24 @@ const MaintenancePage = () => {
                                         fill="none"
                                         strokeLinecap="round"
                                     />
-                                </div>
+                                </button>
                             </a>
-                            <a
-                                href="https://laravelreactspa.santospierre.com/"
-                                className="rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500"
-                            >
-                                <div className="flex rounded-md shadow justify-center items-center px-4 py-4 bg-teal-500 hover:bg-teal-400 space-x-5">
+
+                            <a href="https://laravelreactspa.santospierre.com/">
+                                <button className="flex w-full shadow justify-center items-center px-4 py-4 bg-teal-500 hover:bg-teal-400 space-x-5 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-teal-500">
                                     <p className="text-lg font-semibold">
                                         <span className="inline-block">LaravelReactSPA</span>
                                     </p>
                                     <LaravelReactSPA className="h-8 w-8" />
-                                </div>
+                                </button>
                             </a>
-                            <a
-                                href="https://tic-tac-toe.santospierre.com/"
-                                className="rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                            >
-                                <div className="flex rounded-md shadow justify-center items-center px-4 py-4 bg-indigo-500 hover:bg-indigo-400 space-x-5">
+                            <a href="https://tic-tac-toe.santospierre.com/">
+                                <button className="flex w-full shadow justify-center items-center px-4 py-4 bg-indigo-500 hover:bg-indigo-400 space-x-5 rounded-md text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                                     <p className="text-lg font-semibold">
                                         <span className="inline-block">Tic-Tac-Toe</span>
                                     </p>
                                     <TicTacToeIcon className="h-8 w-8" fill="none" stroke="currentColor" />
-                                </div>
+                                </button>
                             </a>
                         </div>
                     </div>
